@@ -1,8 +1,8 @@
 import React from 'react';
 import './Academics.css';
-import imgMethodology from '../assets/44A3F58AE048BB29BF20B9C6850198EE.jpg';
-import imgTraits from '../assets/Top10_Essential_Trait_GoodStudent.jpg-870x437.webp';
-import imgFuture from '../assets/writing-student-and-education-with-girl-in-classroom-for-learning-future-and-youth-scholarship-academy-and-growth-with-portrait-of-kid-in-school-for-child-development-knowledge-and-lesson-photo.jpg';
+import imgMethodology from '../assets/academics-methodology.jpg';
+import imgTraits from '../assets/academics-traits.webp';
+import imgFuture from '../assets/academics-future.jpg';
 
 const Academics = () => {
   return (

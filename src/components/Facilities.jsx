@@ -1,7 +1,9 @@
 import React from 'react';
 import './Facilities.css';
-import libraryImg from '../assets/library_interior_1775640922037.png';
-import playImg from '../assets/playground_campus_1775640952185.png';
+import libraryImg from '../assets/fac-library.png';
+import playImg from '../assets/fac-playground.png';
+import classroomImg from '../assets/fac-classrooms.webp';
+import sanitationImg from '../assets/fac-sanitation.webp';
 
 const Facilities = () => {
   return (
@@ -13,12 +15,10 @@ const Facilities = () => {
         <div className="fac-grid">
           
           <div className="fac-card">
-            <div className="fac-card-noimg">
-              <div className="fac-icon">🏫</div>
-              <div className="fac-content">
-                <h3>17 Spacious Classrooms</h3>
-                <p>Well-ventilated and modern classrooms designed to foster interactive learning and focus.</p>
-              </div>
+            <img src={classroomImg} alt="Spacious Classrooms" className="fac-img" />
+            <div className="fac-content">
+              <h3>17 Spacious Classrooms</h3>
+              <p>Well-ventilated and modern classrooms designed to foster interactive learning and focus.</p>
             </div>
           </div>
 
@@ -39,12 +39,10 @@ const Facilities = () => {
           </div>
 
           <div className="fac-card">
-            <div className="fac-card-noimg">
-              <div className="fac-icon">🚻</div>
-              <div className="fac-content">
-                <h3>Sanitation & Hygiene</h3>
-                <p>Clean and well-maintained separate toilet facilities for boys and girls, prioritizing student hygiene.</p>
-              </div>
+            <img src={sanitationImg} alt="Sanitation & Hygiene" className="fac-img" />
+            <div className="fac-content">
+              <h3>Sanitation & Hygiene</h3>
+              <p>Clean and well-maintained separate toilet facilities for boys and girls, prioritizing student hygiene.</p>
             </div>
           </div>
 
