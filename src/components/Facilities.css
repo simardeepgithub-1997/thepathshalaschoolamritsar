@@ -1,0 +1,62 @@
+.facilities {
+  background-color: #fff;
+}
+
+.fac-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.fac-card {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.3s ease;
+  background: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.fac-card:hover {
+  transform: translateY(-5px);
+}
+
+.fac-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.fac-content {
+  padding: 1.5rem;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fac-content h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.fac-content p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* For cards without images */
+.fac-card-noimg {
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2rem;
+}
+
+.fac-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
